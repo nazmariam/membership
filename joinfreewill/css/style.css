@@ -64,7 +64,7 @@
     justify-content: center;
     align-items: center;
 }
-.hair-profile-wrapper{
+.sale-wrapper{
     justify-content: center;
 }
 .membership-block{
@@ -76,6 +76,7 @@
 .age-para{
     font-size: 28px;
     color: #2f2533;
+    text-align: center;
 }
 .sale b{
     display: block;
@@ -96,10 +97,14 @@
     color:#2f2533;
     text-align: center;
 }
-.bottle-row {
+.sale-row {
     margin: 32px 0 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }
-.bottle-block{
+.sale-block{
     margin: 0 27px 16px;
     width: 225px;
     height: 225px;
@@ -134,7 +139,7 @@
     left: 50%;
     margin-left: -40px;
 }
-.bottle-span {
+.sale-span {
     font-size: 16px;
     font-weight: 600;
     font-style: normal;
@@ -255,6 +260,16 @@ button.continue:hover{
     color: #fff;
     background-color: #ffa1a1;
 }
+
+
+@media only screen and (min-width: 750px){
+    .medium-up--push-one-fifth {
+        left: auto;
+    }
+    .medium-up--eight-tenths {
+        width: auto;
+    }
+}
 @media(max-width: 660px) {
     .bottle {
         margin: 46px 0;
@@ -285,15 +300,21 @@ button.continue:hover{
     }
 
 }
-@media only screen and (min-width: 750px){
-    .medium-up--push-one-fifth {
-        left: auto;
+@media(max-width: 500px){
+    .perc b:before{
+        left: 5%;
+    }
+}
+@media(max-width: 380px){
+    .perc b:before{
+        left: -2%;
+    }
+    .perc b{
+        font-size: 0.9em;
+    }
+    .age-para{
+        font-size: 1.9em;
     }
 }
 
 
-    @media only screen and (min-width: 750px){
-        .medium-up--eight-tenths {
-            width: auto;
-        }
-    }
