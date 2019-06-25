@@ -90,7 +90,7 @@
     width: 1.2em;
     height: 1.2em;
     left: 10%;
-    top: 3px;
+    top: 4px;
 }
 .sale{
     font-size: 24px;
@@ -263,6 +263,7 @@ button.continue:hover{
 
 
 @media only screen and (min-width: 750px){
+
     .medium-up--push-one-fifth {
         left: auto;
     }
@@ -270,7 +271,18 @@ button.continue:hover{
         width: auto;
     }
 }
+@media only screen and (max-width: 750px) {
+    .grid__item{
+        float: none;
+        padding-left: auto;
+        width: 100%;
+        margin-left: auto;
+    }
+}
 @media(max-width: 660px) {
+    .grid{
+        margin-left: auto;
+    }
     .bottle {
         margin: 46px 0;
     }
@@ -307,7 +319,7 @@ button.continue:hover{
 }
 @media(max-width: 380px){
     .perc b:before{
-        left: -2%;
+        left: 3%;
     }
     .perc b{
         font-size: 0.9em;
