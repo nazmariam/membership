@@ -123,22 +123,6 @@
     color: rgba(47, 37, 51, 0.54);
     margin: 0 0 13px;
 }
-.recommended{
-    position: relative;
-}
-.recommended:before{
-    content: 'Recommended';
-    background-color: #249441;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 8px;
-    padding: 3px 8px;
-    border-radius: 12px;
-    top: -25px;
-    position: absolute;
-    left: 50%;
-    margin-left: -40px;
-}
 .sale-span {
     font-size: 16px;
     font-weight: 600;
@@ -274,7 +258,7 @@ button.continue:hover{
 @media only screen and (max-width: 750px) {
     .grid__item{
         float: none;
-        padding-left: auto;
+        padding-left: 0;
         width: 100%;
         margin-left: auto;
     }
